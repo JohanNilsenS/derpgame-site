@@ -1,8 +1,8 @@
-version: "3.8"
 services:
   web:
     image: nginx:latest
-    ports:
-      - "80:80"
+    # ta bort ports: - "80:80"
+    expose:
+      - "80"
     volumes:
       - ./html:/usr/share/nginx/html:ro
