@@ -1,6 +1,6 @@
 // components/Footer/Footer.tsx
 import React from 'react';
-import discordLogoUrl from '/discord-logo.svg';
+import discordLogoUrl from '../../assets/discord-logo.svg';
 import styles from './Footer.module.css';
 
 const Footer: React.FC = () => (
