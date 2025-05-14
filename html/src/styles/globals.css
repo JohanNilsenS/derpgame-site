@@ -1,0 +1,28 @@
+@import './variables.css';
+
+/* Reset & box-sizing */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-secondary);
+}
+
+body {
+  min-height: 100vh;
+  background-color: #F9FAFB; /* Gray-50 */
+}
+
+/* Utility container class for consistent layout */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--spacing-md);
+}
