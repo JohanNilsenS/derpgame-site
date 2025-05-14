@@ -1,7 +1,8 @@
 :root {
   --color-primary: #4F46E5; /* Indigo-600 */
   --color-on-primary: #FFFFFF;
-  --color-secondary: #6B7280; /* Gray-500 */
+  --color-secondary: #808287; /* Gray-500 */
+  --color-on-secondary: #FFFFFF;
   --font-heading: 'Inter', sans-serif;
   --font-body: 'Roboto', sans-serif;
   --spacing-sm: 0.5rem;

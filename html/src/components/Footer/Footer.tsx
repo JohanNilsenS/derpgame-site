@@ -1,16 +1,23 @@
+// components/Footer/Footer.tsx
 import React from 'react';
+import discordLogoUrl from '/discord-logo.svg';
+import styles from './Footer.module.css';
 
-const Footer: React.FC = () => {
-  return (
-    <footer className="site-footer bg-gray-100 p-4 mt-auto">
-      <div className="container mx-auto flex items-center justify-center space-x-2">
-        <a href="https://discord.derpgame.net" target="_blank" rel="noopener noreferrer">
-          <img src="/discord-logo.svg" alt="Discord Logo" className="h-6" />
-        </a>
-        <span>Join us on Discord</span>
-      </div>
-    </footer>
-  );
-};
+const Footer: React.FC = () => (
+  <footer className={styles.footer}>
+    <div className={styles.footerContainer}>
+      <a href="https://discord.derpgame.net" target="_blank" rel="noopener">
+        <div className={styles.logoWrapper}>
+          <img
+            src={discordLogoUrl}
+            alt="Discord Logo"
+            className={styles.logo}
+          />
+        </div>
+      </a>
+      <span className={styles.text}>Join us on Discord</span>
+    </div>
+  </footer>
+);
 
 export default Footer;

@@ -1,0 +1,36 @@
+.footer {
+  background: var(--color-secondary);
+  color: var(--color-on-secondary);
+  padding: var(--spacing-md) 0;
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-sm);
+}
+
+.logoWrapper {
+  background: #ffffff;
+  border-radius: 50%;
+  padding: var(--spacing-sm);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  min-width: 1.5rem;
+  min-height: 1.5rem;
+}
+
+.logo {
+  max-height: 1.5rem;
+  width: auto;
+  display: block;
+}
+
+.text {
+  font-size: 1rem;
+  font-family: var(--font-body);
+}
