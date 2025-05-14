@@ -1,0 +1,10 @@
+:root {
+  --color-primary: #4F46E5; /* Indigo-600 */
+  --color-on-primary: #FFFFFF;
+  --color-secondary: #6B7280; /* Gray-500 */
+  --font-heading: 'Inter', sans-serif;
+  --font-body: 'Roboto', sans-serif;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 2rem;
+}
