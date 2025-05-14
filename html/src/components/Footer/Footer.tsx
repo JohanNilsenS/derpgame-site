@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
         <a href="https://discord.derpgame.net" target="_blank" rel="noopener noreferrer">
           <img src="/discord-logo.svg" alt="Discord Logo" className="h-6" />
         </a>
-        <span>Join us on Discord!/</span>
+        <span>Join us on Discord</span>
       </div>
     </footer>
   );
